@@ -1,6 +1,7 @@
 # Docker Networking Commands.
 
-## Commands.
+## Networking related commands
+
 * **docker network ls** List of all available networks.
 * **docker network inspect** Shows the network configuration in JSON format.
 * **docker network create --driver** Creates a new network with the default driver (Bridge)
