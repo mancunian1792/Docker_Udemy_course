@@ -21,4 +21,4 @@ To know how to start a container.
 
 # Other Linux Distributions.
 
-* Alpine is a compressed or very tiny in size version of linux. It has its own package manager called apk to install all the packages.
+* Alpine is a compressed or very tiny size version of linux. It has its own package manager called apk to install all the packages.
