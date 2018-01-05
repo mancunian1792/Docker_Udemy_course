@@ -1,6 +1,6 @@
 # Round Robin.
 
-* In this test, we are going to create 2 elastic search servers with the same net alias so that whenever we hit the dns (alias name) we try to hit the 2 different servers.
+* In this test, we are going to create 2 elastic search servers with the same net alias so that whenever we hit the dns (alias name) we try to hit the 2 different containers.
 
 * First, we need to create a network. **docker network create search**
 * Then create 2 elastic search servers and attach it to the network.
