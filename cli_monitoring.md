@@ -18,3 +18,7 @@ To know how to start a container.
 * **docker container start -ai <Name or container id>** -  To start a stopped container and still open up an interactive terminal inside the container.
 
 * **docker container exec -it <Name or container id> <Additional command or program to run>** eg., docker container exec -it mysql bash --> This opens up a terminal inside the mysql container so that we can do any admininstrative stuff. When you type exit and come out of the container, the container doesnt stop as the command instructs the container to run an additional process within the container. This can be checked by typing ps aux (Lists all processes/ daemons inside any linux environment.)
+
+# Other Linux Distributions.
+
+* Alpine is a compressed or very tiny in size version of linux. It has its own package manager called apk to install all the packages.
